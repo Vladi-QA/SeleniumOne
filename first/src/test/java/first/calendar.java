@@ -34,7 +34,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 			 
 			  for(int i=0;i<count; i++) {
 			 String text=driver.findElements(By.xpath("//a[@class='ui-state-default']")).get(i).getText();// polychit text
-			 if(text.equalsIgnoreCase("29")) {
+			 if(text.equalsIgnoreCase("28")) {
 				 driver.findElements(By.xpath("//a[@class='ui-state-default']")).get(i).click();
 				 break;
 			 }
